@@ -5,10 +5,6 @@
 # *.[oa]
 # *~
 
-# ignore python venvs
-**/.venv
-**/__pycache__
-
 # ignore nix artifacts
 .direnv
 result

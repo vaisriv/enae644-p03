@@ -1,5 +1,6 @@
 @default_files = ("./reports/main.tex");
 
+ensure_path('TEXINPUTS', '../lib/ieeeconf//');
 $out_dir = "../reports";
 $aux_dir = "../.texaux/";
 
